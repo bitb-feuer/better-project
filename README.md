@@ -26,9 +26,9 @@ https://www.vagrantup.com/downloads.html
 Select your platform button, make sure architecture selected is 64-bits, press **Download** button.
 Install the package, say **No** for the reboot prompt after install (Windows)
 
-### Run the command in a Shell session  (Mac/Linux Terminal, Windows PowerShell)
+### Run the command series in a Shell session (Mac/Linux Terminal session, Windows PowerShell session)
 
-`mkdir some_temp_directory` For example: `mkdir vagrant_temp_machine_config_directory`
+`mkdir some_temp_directory` (For example: `mkdir vagrant_temp_machine_config_directory`)
 
 `cd some_temp_directory`
 
