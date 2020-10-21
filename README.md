@@ -19,6 +19,8 @@ https://stackoverflow.com/questions/19902239/how-to-upgrade-powershell-version-f
 
 # Start from here
 
+Download and install **Vagrant** software component. 
+
 https://www.vagrantup.com/downloads.html
 
 Select your platform button, make sure architecture selected is 64-bits, press **Download** button.
@@ -36,11 +38,11 @@ Install the package, say **No** for the reboot prompt after install (Windows)
 
 `vagrant ssh`
 
-You're inside your Linux box. Enjoy!
+**You're inside your Linux box. Enjoy!**
 
 # Finish the work
 
-**Ctrl + D**
+(Hot key)  **Ctrl + D**
 
 `vagrant halt`
 
