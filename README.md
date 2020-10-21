@@ -5,7 +5,7 @@ Download and install
 
 https://www.virtualbox.org/wiki/Downloads
 
-## For Windows 7 only
+### For Windows 7 only
 
 Open the  PowerShell terminal and type
 
@@ -24,9 +24,9 @@ https://www.vagrantup.com/downloads.html
 Select your platform button, make sure architecture selected is 64-bits, press **Download** button.
 Install the package, say **No** for the reboot prompt after install (Windows)
 
-# Run the command in a Shell session  (Mac/Linux Terminal, Windows PowerShell)
+### Run the command in a Shell session  (Mac/Linux Terminal, Windows PowerShell)
 
-`mkdir some_temp_directory` For example: `mkdir vagrant_temp_machine_config`
+`mkdir some_temp_directory` For example: `mkdir vagrant_temp_machine_config_directory`
 
 `cd some_temp_directory`
 
@@ -44,7 +44,7 @@ You're inside your Linux box. Enjoy!
 
 `vagrant halt`
 
-## Caution! It deletes this new virtual machine, all its files (HDD image, settings, logs, etc). No other VMs, neither the VirtualBox itself is not deleted.
+### Caution! It deletes this new virtual machine, all its files (HDD image, settings, logs, etc). No other VMs, neither the VirtualBox itself is not deleted.
 
 `vagrant destroy`
 
