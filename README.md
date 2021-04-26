@@ -19,14 +19,18 @@ https://stackoverflow.com/questions/19902239/how-to-upgrade-powershell-version-f
 
 # Start from here
 
-Download and install **Vagrant** software component. 
+Download and install **Vagrant** software component.
 
 https://www.vagrantup.com/downloads.html
 
 Select your platform button, make sure architecture selected is 64-bits, press **Download** button.
-Install the package, say **No** for the reboot prompt after install (Windows)
+Install the package,
+
+say **No** for the **reboot prompt after install** (Windows)
 
 ### Run the command series in a Shell session (Mac/Linux Terminal session, Windows PowerShell session)
+
+`vagrant -v`
 
 `mkdir some_temp_directory` (For example: `mkdir vagrant_temp_machine_config_directory`)
 
@@ -44,7 +48,11 @@ Install the package, say **No** for the reboot prompt after install (Windows)
 
 (Hot key)  **Ctrl + D**
 
+`vagrant status`
+
 `vagrant halt`
+
+`vagrant status`
 
 ### Caution! It deletes this new virtual machine, all its files (HDD image, settings, logs, etc). No other VMs, neither the VirtualBox itself is not deleted.
 
